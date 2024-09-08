@@ -1,0 +1,319 @@
+.navMenuLinkContent {
+    display: inline-block;
+    text-decoration-line: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 10px 16px;
+    margin-right: auto;
+    color: #212529;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.eucalyptus-img {
+    background-image: url('euclayptus.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.divBG {
+    background-color: #f5f0ec;
+}
+
+div.center {
+    text-align: center;
+}
+
+video.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+blockquote p {
+    font-size: 28px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 50px 0px;
+}
+
+.btn-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px !important;
+    color: #212529;
+
+}
+
+.col-border {
+    border-right: 2px solid white;
+    ;
+
+}
+
+.img-thumb {
+    width: 250px;
+    height: 300px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.exp {
+    font-size: 22px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+.insyncText {
+    font-size: 32px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.insync_hero {
+    font-size: 32px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+
+}
+
+.insync-head {
+    font-size: 32px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+.inSyncAbout {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 400px;
+}
+
+.poppins-intro {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #636160;
+}
+
+.services-grid {
+    border: 1px solid #F2EEEB;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 3px;
+    background-color: #F2EEEB;
+}
+
+.poppins-services {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: 636160;
+    font-stretch: expanded;
+}
+
+.about-us{
+    color: #40403F;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px 10px;
+}
+
+.poppins-boxes {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: 636160;
+    font-stretch: expanded;
+    padding-top: 12px;
+}
+
+.button-box {
+    border-color: #C6C2BF;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: #C6C2BF;
+}
+
+.services-button {
+    border-color: #636160;
+    border-width: 2px;
+    border-radius: 0px;
+    background-color: #636160;
+}
+
+.values-heading{
+    color: #A6A3A1;
+    font-size: 58px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.values-headings{
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.values-desc{
+    color: #A6A3A1;
+    line-height: 1.8;
+    font-size: 17px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.my-element {
+    /* Use a flexbox layout */
+    display: flex;
+
+    /* Make a horizontal flexbox (the default) */
+    flex-direction: row;
+
+    /* The important part: vertically center the items */
+    align-items: center;
+}
+
+.about-me{
+    color: #40403F;
+    text-transform: none;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px 10px;
+}
+
+.about-pronouns{
+    color: #8b6348;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    padding: 15px 10px;
+}
+
+.titles{
+    color: rgba(75, 83, 61, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.degrees{
+    color: #7C7474;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 650;
+    font-style: normal;
+}
+
+.about-me-txt{
+    color: #262626;
+    text-transform: none;
+    letter-spacing: 0.03em;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.expertise-bullets{
+    color: #674614    ;
+    text-transform: none;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+}
+
+.expertise{
+    color: rgba(75, 83, 61, 1);
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.list-bg{
+    background-color: #A6A3A1;
+}
