@@ -7,7 +7,7 @@
     white-space: nowrap;
     padding: 10px 16px;
     margin-right: auto;
-    color: #212529;
+    color: #73613F;
     overflow: hidden;
     text-overflow: ellipsis;
     text-transform: uppercase;
@@ -20,7 +20,7 @@
 }
 
 .divBG {
-    background-color: #f5f0ec;
+    background-color: #73613F;
 }
 
 div.center {
@@ -52,11 +52,14 @@ video.center {
 }
 
 blockquote p {
-    font-size: 28px !important;
-    font-family: "Poppins", sans-serif;
+    color: rgba(249, 232, 213, 1);
+    line-height: 1;
+    letter-spacing: 0.01em;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Mackinack';
     font-weight: 400;
     font-style: normal;
-    padding: 25px 50px 0px;
 }
 
 .btn-font {
@@ -106,7 +109,11 @@ blockquote p {
     font-style: normal;
     padding-top: 20px;
     margin-bottom: 0px;
-    letter-spacing: 3px;
+
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+
 
 }
 
@@ -141,11 +148,11 @@ blockquote p {
 }
 
 .services-grid {
-    border: 1px solid #F2EEEB;
+    border: 1px solid #F2E6D8;
     padding: 12px;
-    margin: 8px;
+    margin: 6px;
     border-radius: 3px;
-    background-color: #F2EEEB;
+    background-color: #F2E6D8;
 }
 
 .poppins-services {
@@ -176,7 +183,7 @@ blockquote p {
     font-style: normal;
     font-size: 16px;
     text-transform: uppercase;
-    color: 636160;
+    color: #73613F;
     font-stretch: expanded;
     padding-top: 12px;
 }
