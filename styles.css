@@ -251,14 +251,14 @@ blockquote p {
 }
 
 .about-pronouns{
-    color: #8b6348;
+    color: #d5e465;
     text-transform: none;
     line-height: 1.8;
     letter-spacing: 0.03em;
     font-size: 17px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-weight: 450;
+    font-weight: 500;
     font-style: normal;
     padding: 15px 10px;
 }
@@ -275,7 +275,7 @@ blockquote p {
 }
 
 .degrees{
-    color: #7C7474;
+    color: #A6823F;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 18px;
@@ -286,7 +286,7 @@ blockquote p {
 }
 
 .about-me-txt{
-    color: #262626;
+    color: #667302;
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 15px;
@@ -294,6 +294,7 @@ blockquote p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-style: normal;
+    padding: 5px;
 }
 
 .expertise-bullets{
@@ -321,4 +322,39 @@ blockquote p {
 
 .list-bg{
     background-color: #A6A3A1;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: -10;
+    left: -20;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:-5;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
 }
