@@ -343,11 +343,11 @@ blockquote:before {
 blockquote:after {
     font-family: Georgia, serif;
     position: absolute;
-   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+   display: block;
     float:right;
     font-size:6em;
     line-height: 1;
-    right:-5;
+    right:-10;
     bottom:-0.5em;
     content: "\201D";
 }
