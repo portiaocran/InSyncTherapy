@@ -60,7 +60,11 @@
     </header>
   
     <body > 
-    
+
+     
+<?php
+echo "My first PHP script!";
+?>
      <div class="container-fluid text-center divBG text-center p-5" >
     
     <div class="row align-items-center">
@@ -69,8 +73,8 @@
 
       </div>
       <div class="col-md-8 col-sm-12 ">
-        <div class="row text-start text-sm-center">
-        <p class="insync_hero">
+        <div class="row">
+        <p class="insync_hero pt-1">
           Therapy designed to help you feel more in sync with your life and your relationships
         </p>
         </div>
@@ -117,8 +121,10 @@
         <p class="my-1 mt-2 about-me-txt" style="color: #636160; font-size: 20px; line-height: 1.5;">develop healthy coping strategies to better manage present-day challenges,</p>
         <p class="my-1 mt-2 about-me-txt pb-5" style="color: #636160; font-size: 20px; line-height: 1.5;">and empower you to live a more fulfilling future.</p>
       </figure>
-      <div class="pb-3"> 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HILV-mNfwrY?si=rqD8QYT7zsBERu5G?autoplay=1&loop=1&autopause=0&muted=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col-12"> 
+      <iframe  src="https://www.youtube.com/embed/HILV-mNfwrY?si=rqD8QYT7zsBERu5G?autoplay=1&loop=1&autopause=0&muted=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     </div>
       </div>
     </div>
@@ -131,9 +137,9 @@
       <p class="my-1 mt-2 about-me-txt" style="color: #F2EEEB; font-size: 20px; line-height: 1.5;">We offer virtual psychotherapy sessions to individuals,</p> 
       <p class="my-1 mt-2 about-me-txt" style="color: #F2EEEB; font-size: 20px; line-height: 1.5;">couples and families as well as group therapy within Ontario.</p>
       <p class="my-1 mt-2 about-me-txt" style="color: #F2EEEB; font-size: 20px; line-height: 1.5;">Schedule your complimentary consultation today.</p>
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center pt-4">
       
-        <div class="col-md-4 col-sm-12 pt-5 pb-3">
+        <div class="col-md-4 col-sm-12 pb-3">
           <div class=" services-grid">
             <img width="50" height="50" src="images/icons8-consultation-50.png" alt="consultation"/>
             <p class="poppins-boxes">Complimentary Consultation</p>
@@ -142,9 +148,9 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-12 pt-5 pb-3">
+        <div class="col-md-4 col-sm-12 pb-3">
           <div class="services-grid">
-            <img width="40" height="40" src="images/icons8-person-female-50.png" alt="consultation"/>
+            <img width="50" height="50" src="images/icons8-person-female-50.png" alt="consultation"/>
             <p class="poppins-boxes">Individual Session</p>
             <p></p>
             <button type="button" class="btn btn-outline-secondary btn-md text-center" >Learn More</button>
@@ -158,7 +164,7 @@
         <div class="row justify-content-md-center pb-4">
 
 
-          <div class="col-md-4 col-sm-12-4">
+          <div class="col-md-4 col-sm-12-4 pb-4">
             <div class="services-grid">
               <img width="50" height="50" src="images/icons8-couple-50.png" alt="consultation"/>
               <p class="poppins-boxes">Couples Therapy</p>
