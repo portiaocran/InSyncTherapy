@@ -295,6 +295,7 @@ blockquote p {
     font-weight: 500;
     font-style: normal;
     padding: 5px;
+    line-height: 2;
 }
 
 .expertise-bullets{
