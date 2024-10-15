@@ -73,11 +73,16 @@
     </div>
 
     <div class="container text-center p-1" style="background-color: F2F2F2;">
-
-          <h2 class="p-md-4 m-md-5 p-5 m-5 playwrite-de-grund-welcome" style=" font-family: Playwrite DE Grund, cursive;"><i>Welcome</i>, it’s nice to meet you.</h2>
-       
-      </figure>
+          <h2 id="welcome" class="p-md-4 m-md-5 p-5 m-5 playwrite-de-grund-welcome" style=" font-family: Playwrite DE Grund, cursive;"><i>Welcome</i>, it’s nice to meet you.</h2>
     </div>
+    <script>
+    if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
+
+      document.getElementById("welcome").outerHTML = '<h2 id="welcome" class="p-md-4 m-md-5 p-4 m-4 playwrite-de-grund-welcome" style=" font-family: Playwrite DE Grund, cursive; line-height: 2;"><i>Welcome</i>,<br> it’s nice to meet you.</h2>';
+
+        }
+
+    </script>
     <div class="container-fluid text-center p-md-5" style="background-color: #91a192; border-top-left-radius: 70px; border-top-right-radius: 70px;">
 
     <div class="container text-center" style="background-color: #91a192; border-top-left-radius: 70px; border-top-right-radius: 70px;">
