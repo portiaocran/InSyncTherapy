@@ -227,7 +227,7 @@ blockquote p {
 }
 
 .values-heading{
-    color: #688C7F;
+    color: #4b6a6a;
     font-size: 58px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -236,7 +236,7 @@ blockquote p {
 }
 
 .values-headings{
-    color: #B1BF45;
+    color: #4b6a6a;
     text-transform: uppercase;
     font-size: 18px;
     text-align: left;
@@ -244,7 +244,7 @@ blockquote p {
 }
 
 .values-desc{
-    color: #A6A3A1;
+    color: #fdfcfc;
     line-height: 1.8;
     font-size: 17px;
     text-align: left;
