@@ -86,9 +86,17 @@
       </div>
 
       <div class="row justify-content-md-center p-5" style="background-color:#BFB78E;">
-        <div class="col-md-3 col-sm-12 pe-1 about-us text-md-center justify-content-sm-start my-element" style="font-size: 50px; font-weight: 400px;">
+        <div id="values-head" class="col-md-3 col-sm-12 pe-1 about-us text-md-center text-sm-center justify-content-sm-start my-element" style="font-size: 50px; font-weight: 400px;">
           Our <br> Values
         </div>
+
+        <script>
+          if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
+            console.log("MOBILE");
+            document.getElementById("values-head").innerHTML = 'Our Values';
+            document.getElementById("values-head").style.padding = "10px"
+          }
+            </script>
         <div class="col-md-5 col-sm-12">
           <div class="row justify-content-md-center pt-sm-2">
             <h5 class="values-headings">Empathy</h5>
