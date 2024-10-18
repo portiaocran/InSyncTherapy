@@ -12,6 +12,7 @@
     font-size: 12px; 
     letter-spacing: 2px; 
     font-weight: 150;
+    padding: 12px;
 }
 
 .navMenuLinkContent {
@@ -172,10 +173,10 @@ blockquote p {
 
 .services-grid {
     border: 1px solid #F2E6D8;
-    padding: 12px;
+    padding: 16px;
     margin: 6px;
     border-radius: 3px;
-    background-color: #F2F2F2;
+    background-color: #D9D4BA;
 }
 
 .poppins-services {
