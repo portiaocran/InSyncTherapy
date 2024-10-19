@@ -45,6 +45,22 @@
     position: relative;
   }
 
+  .hero-image-about-me {
+    background-image: url("images/about-me-hero.jpg");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
 .divBG {
     background-color: #92A699;
 }
@@ -276,7 +292,7 @@ blockquote p {
 }
 
 .about-pronouns{
-    color: #d5e465;
+    color: white;
     text-transform: none;
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -300,7 +316,7 @@ blockquote p {
 }
 
 .degrees{
-    color: #86f517;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 18px;
