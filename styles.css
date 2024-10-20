@@ -45,6 +45,15 @@
     position: relative;
   }
 
+  .hero-image-therapy {
+    background-image:url("images/therapy_img.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   .hero-image-about-me {
     background-image: url("images/about-me-hero.jpg");
     height: 40%;
