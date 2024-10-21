@@ -47,7 +47,7 @@
 
   .hero-image-therapy {
     background-image:url("images/therapy_img.jpg");
-    height: 75%;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,6 +300,7 @@ blockquote p {
     font-style: normal;
 }
 
+
 .about-pronouns{
     color: white;
     text-transform: none;
@@ -350,7 +351,7 @@ blockquote p {
     color: #674614    ;
     text-transform: none;
     letter-spacing: 0.03em;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-style: normal;
