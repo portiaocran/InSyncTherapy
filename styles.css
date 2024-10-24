@@ -134,7 +134,7 @@ blockquote {
         content: "\201C";
         font-weight: 300px;
         font-size:40px;
-        color:#D9D6D2;
+        color:#fffdfa;
         position: absolute; 
         top: -0.4em;
         left: -0.4em; 
@@ -144,7 +144,7 @@ blockquote {
         content: "\201D";
         font-weight: bold;
         font-size:30px;
-        color:#D9D6D2;
+        color:#fffdfa;
         position: absolute; 
         bottom: -0.8em;
         right: 10; 
