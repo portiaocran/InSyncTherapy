@@ -15,6 +15,10 @@
     padding: 12px;
 }
 
+.big-quote {
+    font-size: 5em;
+}
+
 .navMenuLinkContent {
     display: inline-block;
     text-decoration-line: none;
@@ -102,7 +106,7 @@ video.center {
     font-style: normal;
 }
 
-blockquote p {
+/* blockquote p {
     color: rgba(249, 232, 213, 1);
     line-height: 1;
     letter-spacing: 0.01em;
@@ -111,7 +115,41 @@ blockquote p {
     font-family: 'Mackinack';
     font-weight: 400;
     font-style: normal;
-}
+} */
+
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    position: relative; 
+        margin: 0 auto; 
+        padding-left: 0.4em; 
+    }
+    
+    blockquote p {
+        font-size:21px;
+    }
+    
+    blockquote p:before { 
+        content: "\201C";
+        font-weight: 300px;
+        font-size:40px;
+        color:#D9D6D2;
+        position: absolute; 
+        top: -0.4em;
+        left: -0.4em; 
+        font-family: 'Georgia'; 
+    } 
+    blockquote p:after { 
+        content: "\201D";
+        font-weight: bold;
+        font-size:30px;
+        color:#D9D6D2;
+        position: absolute; 
+        bottom: -0.8em;
+        right: 10; 
+        font-family: 'Georgia'; 
+    } 
 
 .btn-font {
     font-family: "Poppins", sans-serif;
@@ -374,14 +412,14 @@ blockquote p {
     background-color: #A6A3A1;
 }
 
-blockquote {
+/* blockquote {
     font-family: Georgia, serif;
     position: relative;
     margin: 0.5em;
     padding: 0.5em 2em 0.5em 3em;
-}
+} */
 /* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
-blockquote:before {
+/* blockquote:before {
     font-family: Georgia, serif;
     position: absolute;
     font-size: 6em;
@@ -407,7 +445,7 @@ blockquote footer {
 }
 blockquote cite:before {
     content: "\2013";
-}
+} */
 
 playwrite-de-grund-welcome {
     font-family: "Playwrite DE Grund", cursive;
