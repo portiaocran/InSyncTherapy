@@ -85,11 +85,11 @@
     
     
 
-        <div class="container-fluid p-sm-4 p-md-5 align-items-center" style="background-color: #d6c6b2;">
+        <div class="container-fluid p-4 align-items-center" style="background-color: #d6c6b2;">
             <div class="row justify-content-center text-center align-items-center">
                 <div class="col px-2 py-4 px-md-4 px-sm-3 ">
                     <p class="about-me mb-2" style="color:white;">Individual Therapy</p>
-            <p class="about-me-txt p-2 text-center" style="font-size: 18px; line-height: 2; color:white;">
+            <p class="about-me-txt p-4 pb-0 text-center" style="font-size: 18px; line-height: 2; color:white;">
     
                 Individual therapy is a deeply personal and transformative journey that offers a safe, non-judgmental 
                 space to explore your thoughts, emotions, and behaviors. At InSync Therapy and Wellness, our goal 
@@ -101,18 +101,18 @@
                 </div>
                 </div>
     
-            <div class="row py-3 mb-3">
+            <div class="row py-5 mb-3" id="row-ind">
                 <div class="col-md-6 col-sm-12 order-md-1 order-sm-2">
                     <div class="row justify-content-center">
     
                     <h2 class="expertise p-3">Areas of Expertise</h2>
-                    <div class="col-5 col-sm-6 ps-3 p-3 ">
+                    <div class="col-5 col-sm-6 ps-3 p-1 ">
                         <p class="expertise-bullets" style="color:white">Anxiety / Stress</p>
                             <p class="expertise-bullets" style="color: white;">Depression / Low mood</p>
                             <p class="expertise-bullets" style="color: white;">Self Identity / Self-esteem</p>
                             <p class="expertise-bullets" style="color: white;">Interpersonal Relationships</p>
                         </div>
-                        <div class="col-5 ps-3 p-3">
+                        <div class="col-5 ps-3 p-1">
                             <p class="expertise-bullets" style="color: white;">Trauma (particularly childhood trauma, relational trauma)</p>
                             <p class="expertise-bullets" style="color: white;">Life Transitions</p>
                             <p class="expertise-bullets" style="color: white;">Emotional regulation</p>
@@ -125,15 +125,49 @@
                     </div>
                     </div>
            
-                <div class="col-md-6 col-sm-12 align-items-center order-md-2 order-sm-1 ">
-                    <img src="images/individual_therapy.jpg" class="img-fluid" alt="..." style="width:100%;">
-    
-    
-                </div>
-    
+                    <div class="col-md-6 col-sm-12 align-items-center order-md-2 order-sm-1 ">
+                        <img src="images/individual_therapy.jpg" class="img-fluid" alt="..." style="width:100%;">
+                    </div>
                 </div>   
         </div>
+        <script>
+            if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
+                console.log("MOBILE");
+            
+                document.getElementById("row-ind").outerHTML = 
 
+
+                '<div class="col-md-6 col-sm-12 align-items-center order-md-2 order-sm-1 p-3">' +
+                '<img src="images/individual_therapy.jpg" class="img-fluid" alt="..." style="width:100%;"></div>' +
+
+                '<div class="col-md-6 col-sm-12 order-md-1 order-sm-2">' +
+                '<div class="row justify-content-center">' +
+                    '<h2 class="expertise p-3">Areas of Expertise</h2>' +
+                    '<div class="col-5 col-sm-6 ps-3 p-3 ">' +
+                        '<p class="expertise-bullets" style="color:white">Anxiety / Stress</p>' +
+                            '<p class="expertise-bullets" style="color: white;">Depression / Low mood</p>' +
+                            '<p class="expertise-bullets" style="color: white;">Self Identity / Self-esteem</p>' +
+                            '<p class="expertise-bullets" style="color: white;">Interpersonal Relationships</p>' +
+                        '</div>' +
+                        '<div class="col-5 ps-3 p-3">' +
+                            '<p class="expertise-bullets" style="color: white;">Trauma (particularly childhood trauma, relational trauma)</p>' +
+                            '<p class="expertise-bullets" style="color: white;">Life Transitions</p>' +
+                            '<p class="expertise-bullets" style="color: white;">Emotional regulation</p>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="col-12 align-items-center text-center my-sm-4 my-md-2 pt-2 pb-5">' +
+                        '<button type="button" class="btn  btn-lg btn-outline-light px-4 m-2" id="custom-btn" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult' +
+                        '</button>' +
+            
+                    '</div>' +
+                    '</div>';
+           
+                 
+            
+            
+            
+            }
+        </script>
     <div class="container-fluid p-5 align-items-center"  style="background-color: #F2F2F0;">
         <div class="row justify-content-center text-center align-items-center">
             <div class="col px-2 pb-3">
@@ -158,18 +192,18 @@
                 <div class="row  justify-content-center align-items-center">
 
                 <h2 class="expertise p-3">Areas of Expertise</h2>
-                <div class="col-6 ps-3 pe-4">
+                <div class="col-6 ps-3">
                     <p class="expertise-bullets" style="color: #6e724d;">Improving Communication</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Conflict Resolution</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Infidelity / Broken Trust</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Navigating Different Attachment Styles</p>
 
                 </div>
-                <div class="col-6 ps-3 pe-4">
+                <div class="col-6 ps-3 ">
+                    <p class="expertise-bullets" style="color: #6e724d;">Parenting Challenges</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Lack of Intimacy</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Interracial/ Intercultural Issues</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Life Transitions</p>
-                    <p class="expertise-bullets" style="color: #6e724d;">Parenting Challenges</p>
                 </div>
                 </div>
                 <div class="row align-items-center p-3">
