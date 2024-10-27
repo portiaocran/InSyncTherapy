@@ -143,13 +143,13 @@
                 '<div class="col-md-6 col-sm-12 order-md-1 order-sm-2">' +
                 '<div class="row justify-content-center">' +
                     '<h2 class="expertise p-3">Areas of Expertise</h2>' +
-                    '<div class="col-5 col-sm-6 ps-3 p-3 ">' +
+                    '<div class="col-5 col-sm-6 p-2 ">' +
                         '<p class="expertise-bullets" style="color:white">Anxiety / Stress</p>' +
                             '<p class="expertise-bullets" style="color: white;">Depression / Low mood</p>' +
                             '<p class="expertise-bullets" style="color: white;">Self Identity / Self-esteem</p>' +
                             '<p class="expertise-bullets" style="color: white;">Interpersonal Relationships</p>' +
                         '</div>' +
-                        '<div class="col-5 ps-3 p-3">' +
+                        '<div class="col-5  col-sm-6 p-2">' +
                             '<p class="expertise-bullets" style="color: white;">Trauma (particularly childhood trauma, relational trauma)</p>' +
                             '<p class="expertise-bullets" style="color: white;">Life Transitions</p>' +
                             '<p class="expertise-bullets" style="color: white;">Emotional regulation</p>' +
@@ -162,14 +162,12 @@
                     '</div>' +
                     '</div>';
            
-                 
-            
-            
             
             }
         </script>
-    <div class="container-fluid p-5 align-items-center"  style="background-color: #F2F2F0;">
-        <div class="row justify-content-center text-center align-items-center">
+
+    <div class="container-fluid align-items-center pb-4"  style="background-color: #F2F2F0;">
+        <div class="row justify-content-center text-center align-items-center p-5 pb-2">
             <div class="col px-2 pb-3">
         <p class="about-me mb-3" style="color: #555931;">Couples Therapy</p>
         <p class="about-me-txt p-md-2 p-sm-1" style="font-size: 18px; line-height: 2; color: #6e724d;">
@@ -182,29 +180,32 @@
             </div>
             </div>
 
-        <div class="row py-3 mb-3 justify-content-center">
-            <div class="col-md-6 col-sm-12">
+        <div class="row p-4  justify-content-center">
+            <div class="col-md-6 col-sm-12 pb-4">
                 <img src="images/couple_therapy.jpg" class="img-fluid" alt="...">
 
 
             </div>
-            <div class="col-md-6 col-sm-12  p-md-5 p-sm-3">
+            <div class="col-md-6 col-sm-12">
                 <div class="row  justify-content-center align-items-center">
 
-                <h2 class="expertise p-3">Areas of Expertise</h2>
-                <div class="col-6 ps-3">
-                    <p class="expertise-bullets" style="color: #6e724d;">Improving Communication</p>
-                    <p class="expertise-bullets" style="color: #6e724d;">Conflict Resolution</p>
-                    <p class="expertise-bullets" style="color: #6e724d;">Infidelity / Broken Trust</p>
+                <h2 class="expertise ">Areas of Expertise</h2>
+                <div class="col-5 p-3">
+                    <p class="expertise-bullets" style="color: #6e724d;">Parenting Challenges</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Navigating Different Attachment Styles</p>
 
-                </div>
-                <div class="col-6 ps-3 ">
-                    <p class="expertise-bullets" style="color: #6e724d;">Parenting Challenges</p>
-                    <p class="expertise-bullets" style="color: #6e724d;">Lack of Intimacy</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Interracial/ Intercultural Issues</p>
                     <p class="expertise-bullets" style="color: #6e724d;">Life Transitions</p>
                 </div>
+                <div class="col-6 p-3">
+                    <p class="expertise-bullets" style="color: #6e724d;">Improving Communication</p>
+                    <p class="expertise-bullets" style="color: #6e724d;">Lack of Intimacy</p>
+
+                    <p class="expertise-bullets" style="color: #6e724d;">Conflict Resolution</p>
+                    <p class="expertise-bullets" style="color: #6e724d;">Infidelity / Broken Trust</p>
+
+                </div>
+           
                 </div>
                 <div class="row align-items-center p-3">
                     <div class="col-12 align-items-center text-center my-sm-4 my-md-2">
@@ -235,9 +236,9 @@
                 </div>
             </div>
 
-        <div class="row py-3 mb-3 justify-content-center">
+        <div class="row py-3 mb-3 justify-content-center" id="row-fam">
             <div class="col-md-6 col-sm-12 p-0">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" >
 
                 <h2 class="expertise p-3">Areas of Expertise</h2>
                 <div class="col-5 ps-3 p-3">
@@ -269,6 +270,43 @@
             </div>
 
             </div>   
+
+            <script>
+            if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
+                console.log("MOBILE");
+            
+                document.getElementById("row-fam").outerHTML = '<div class="col-md-6 col-sm-12 p-0">' +
+                '<div class="row justify-content-center" >' +
+
+                '<div class="col-md-6 col-sm-12 align-items-center pb-2">' +
+                '<img src="images/family_therapy.jpg" class="img-fluid w-100" alt="...">' +
+                '</div>'+
+                '<h2 class="expertise p-3">Areas of Expertise</h2>'+
+
+                '<div class="col-5 ps-3 p-3">' +
+                    '<p class="expertise-bullets" style="color:white;">Conflict Resolution</p>' +
+                        '<p class="expertise-bullets" style="color: white;">Family Dynamics</p>' +
+                        '<p class="expertise-bullets" style="color: white;">Trauma</p>'+
+                        '<p class="expertise-bullets" style="color: white;">Life Transitions</p>'+
+                    '</div>' +
+                    '<div class="col-5 ps-3 p-3">' +
+                        '<p class="expertise-bullets" style="color: white;">Grief</p>' +
+                        '<p class="expertise-bullets" style="color: white;">Parenting Challenges</p>'+
+                        '<p class="expertise-bullets" style="color: white;">Blended Family Issues</p>' +
+                        '<p class="expertise-bullets" style="color: white;">Improving Communication</p>' +
+                    '</div>'+
+                '</div>'+
+                '<div class="row align-items-center p-3">' +
+                    '<div class="col-12 align-items-center text-center my-sm-4 my-md-2">' +
+                        '<button type="button" class="btn  btn-lg btn-outline-light p-3 px-4 m-2" id="custom-btn" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult' +
+                        '</button>' +
+            
+                        '</div> </div> </div>';
+            }
+       
+        
+
+            </script>
     </div>
 
 
