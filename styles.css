@@ -73,6 +73,18 @@
     position: relative;
   }
 
+  .forum-regular {
+    font-family: "Forum", serif;
+    font-size: 34px !important;
+    font-weight:500;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+
   .hero-image-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about-us.jpg");
     height: 100%;
@@ -413,8 +425,8 @@ blockquote {
     line-height: 1.4;
     letter-spacing: 0.02em;
     font-size: 24px;
-    font-family: 'Georgia';
-    font-weight: 400;
+    font-family: "Forum", serif;
+    font-weight: 500;
     font-style: normal;
 
 }
