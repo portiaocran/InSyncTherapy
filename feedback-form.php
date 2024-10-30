@@ -1,23 +1,34 @@
 <?php
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
+require 'vendor/autoload.php';
 
-   $to = "portiaocran3@gmail.com";
-   $subject = "This is subject";
+$mail = new PHPMailer(true);
 
-   $message = "<b>This is HTML message.</b>";
-   $message .= "<h1>This is headline.</h1>";
+try {
+	$mail->SMTPDebug = 2;									 
+	$mail->isSMTP();										 
+	$mail->Host	 = 'smtp.gfg.com;';				 
+	$mail->SMTPAuth = true;							 
+	$mail->Username = 'portiaocran3@gmail.com';				 
+	$mail->Password = 'Aitrop_31';					 
+	$mail->SMTPSecure = 'tls';							 
+	$mail->Port	 = 587; 
 
-   $header = "From:abc@somedomain.com \r\n";
-   $header .= "Cc:afgh@somedomain.com \r\n";
-   $header .= "MIME-Version: 1.0\r\n";
-   $header .= "Content-type: text/html\r\n";
+	$mail->setFrom('portiaocran3@gmail.com', 'Portia');		 
+	$mail->addAddress('priscilla.ocran@hotmail.com');
+	$mail->addAddress('portiaocran3@gmail.com', 'Portia');
+	
+	$mail->isHTML(true);								 
+	$mail->Subject = 'TEST';
+	$mail->Body = 'HTML message body in <b>bold</b> ';
+	$mail->AltBody = 'Body in plain text for non-HTML mail clients';
+	$mail->send();
+	echo "Mail has been sent successfully!";
+} catch (Exception $e) {
+	echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
 
-   $retval = mail ($to,$subject,$message,$header);
-
-   if( $retval == true ) {
-      echo "Message sent successfully...";
-   }else {
-      echo "Message could not be sent...";
-   }
 ?>

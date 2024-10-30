@@ -3,6 +3,18 @@
     src: url('font/Mattone-Regular.otf'); /* Locate the .ttf file within your directory*/
   }
 
+  .eb-garamond-serif {
+    font-family: "EB Garamond", serif;
+    font-size: 34px !important;
+    font-weight:400;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+
 #custom-btn{
     border-color: #F2EEEB;  
     border-width: 2px; 
@@ -124,6 +136,7 @@
     background-color: #92A699;
 }
 
+
 div.center {
     text-align: center;
 }
@@ -237,6 +250,8 @@ blockquote {
 
 }
 
+
+
 .insync_hero {
     font-size: 34px !important;
     font-family: "Signika", sans-serif;
@@ -311,7 +326,7 @@ blockquote {
 }
 
 .poppins-boxes {
-    font-family: "Poppins", sans-serif;
+    font-family: "Forum", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
@@ -436,8 +451,8 @@ blockquote {
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-family: "Forum", sans-serif;
+    font-weight: 600;
     font-style: normal;
     border: none;
 }
