@@ -3,9 +3,9 @@
     src: url('font/Mattone-Regular.otf'); /* Locate the .ttf file within your directory*/
   }
 
-  .eb-garamond-serif {
-    font-family: "EB Garamond", serif;
-    font-size: 34px !important;
+  .insync-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px !important;
     font-weight:400;
     font-style: normal;
     padding-top: 20px;
@@ -25,18 +25,20 @@
     letter-spacing: 2px; 
     font-weight: 150;
     padding: 12px;
+    border-color: #66694e;
 }
 
 #custom-btn-2{
-    border-color: #92A699; 
+    border-color: #a8ab92;; 
     border-width: 2px; 
     border-radius: 25px; 
-    background-color: #92A699;  
+    background-color: #a8ab92;  
     font-family: Mattone; 
     font-size: 12px; 
     letter-spacing: 2px; 
     font-weight: 150;
     padding: 12px;
+    border-color: #66694e;
 }
 
 #custom-btn-3{
@@ -319,13 +321,27 @@ blockquote {
     letter-spacing: 0.03em;
     font-size: 17px;
     text-align: center;
-    font-family: "EB Garamond", serif;   
+    font-family: "Poppins", sans-serif;
+    font-weight: 420px;
+    font-style: normal;
+    padding: 1px 10px;
+}
+
+.about-me-head{
+    color: #4b6a6a;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200px;
     font-style: normal;
     padding: 1px 10px;
 }
 
 .poppins-boxes {
-    font-family: "Forum", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
@@ -393,8 +409,8 @@ blockquote {
     text-transform: none;
     font-size: 40px;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -438,9 +454,9 @@ blockquote {
     color: whitesmoke;
     line-height: 1.4;
     letter-spacing: 0.02em;
-    font-size: 24px;
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -450,8 +466,8 @@ blockquote {
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-family: "Forum", sans-serif;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     font-style: normal;
     border: none;
 }
