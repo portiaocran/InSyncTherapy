@@ -537,3 +537,23 @@ playwrite-de-grund-welcome {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+  .box{
+    width: 50%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;  /* for demo purpose  */
+}
+.stack-top{
+    z-index: 4;
+    margin: 90px 200px; /* for demo purpose  */
+}
+
+.container2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 20px;
+}
