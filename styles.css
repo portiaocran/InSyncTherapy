@@ -314,6 +314,15 @@ blockquote {
     font-stretch: expanded;
 }
 
+.services-price{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: 636160;
+    font-stretch: expanded;
+}
+
 .about-us{
     color: #4b6a6a;
     text-transform: none;
