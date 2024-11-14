@@ -3,8 +3,28 @@
     src: url('font/Mattone-Regular.otf'); /* Locate the .ttf file within your directory*/
   }
 
+  @font-face {
+    font-family: 'DMSans-Regular'; /* Name your font family */
+    src: url('font/static/DMSans-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+  @font-face {
+    font-family: 'DMSans-Light'; /* Name your font family */
+    src: url('font/static/DMSans-Light.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+  @font-face {
+    font-family: 'Conso'; /* Name your font family */
+    src: url('font/Conso-Regular.otf'); /* Locate the .ttf file within your directory*/
+  }
+
+  @font-face {
+    font-family: 'Conso-Italic'; /* Name your font family */
+    src: url('font/Conso-RegularItalic.otf'); /* Locate the .ttf file within your directory*/
+  }
+
   .insync-heading {
-    font-family: "Poppins", sans-serif;
+    font-family: "Conso", sans-serif;
     font-size: 30px !important;
     font-weight:400;
     font-style: normal;
@@ -13,6 +33,22 @@
     color: white;
     line-height: 1.8;
     letter-spacing: 0.03em;
+  }
+
+  .insync-welcome {
+    font-family: "Conso", sans-serif;
+    font-size: 40px !important;
+    font-style: normal;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+
+  hr.welcome {
+    border: 1px solid white;
+
   }
 
 #custom-btn{
@@ -464,7 +500,7 @@ blockquote {
     line-height: 1.4;
     letter-spacing: 0.02em;
     font-size: 25px;
-    font-family: "Poppins", sans-serif;
+    font-family: "DMSans-Light", sans-serif;
     font-weight: 300;
     font-style: normal;
 
