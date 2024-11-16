@@ -366,7 +366,7 @@ blockquote {
     letter-spacing: 0.03em;
     font-size: 17px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "DMSans-Light";
     font-weight: 420px;
     font-style: normal;
     padding: 1px 10px;
@@ -452,9 +452,9 @@ blockquote {
 .about-me{
     color: #40403F;
     text-transform: none;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Conso", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
