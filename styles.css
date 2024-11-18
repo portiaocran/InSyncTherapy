@@ -37,7 +37,7 @@
     margin-bottom: 0px;
     color: white;
     line-height: 1.8;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.1em;
   }
 
   .insync-welcome {
@@ -48,7 +48,7 @@
     margin-bottom: 0px;
     color: white;
     line-height: 1.8;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.1em;
   }
 
   hr.welcome {
@@ -432,6 +432,8 @@ blockquote {
     color: #56735A;
     font-stretch: expanded;
     padding-top: 12px;
+    letter-spacing: 0.05em;
+
 }
 
 .button-box {
@@ -536,7 +538,7 @@ blockquote {
 .about-me-txt{
     color: whitesmoke;
     line-height: 1.4;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.1em;
     font-size: 27px;
     font-family: 'PerfectlyNineties-Regular';
     font-weight: 300;
