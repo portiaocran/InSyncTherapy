@@ -7,11 +7,7 @@
     font-family: 'DMSans-Regular'; /* Name your font family */
     src: url('font/static/DMSans-Regular.ttf'); /* Locate the .ttf file within your directory*/
   }
-
-  @font-face {
-    font-family: 'PerfectlyNineties-Regular'; /* Name your font family */
-    src: url('font/perfectly-nineties-regular/perfectly-nineties-regular.otf'); /* Locate the .ttf file within your directory*/
-  }
+  
 
   @font-face {
     font-family: 'DMSans-Light'; /* Name your font family */
@@ -29,7 +25,7 @@
   }
 
   .insync-heading {
-    font-family: "PerfectlyNineties-Regular";
+    font-family: "Conso", sans-serif;
     font-size: 40px !important;
     font-weight:400;
     font-style: normal;
@@ -37,18 +33,18 @@
     margin-bottom: 0px;
     color: white;
     line-height: 1.8;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.03em;
   }
 
   .insync-welcome {
-    font-family: 'PerfectlyNineties-Regular';
+    font-family: "Conso", sans-serif;
     font-size: 40px !important;
     font-style: normal;
     padding-top: 20px;
     margin-bottom: 0px;
     color: white;
     line-height: 1.8;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.03em;
   }
 
   hr.welcome {
@@ -61,7 +57,7 @@
     border-width: 2px; 
     border-radius: 25px; 
     background-color: #F2EEEB; 
-    font-family: 'PerfectlyNineties-Regular'; 
+    font-family: "DMSans-Regular"; 
     font-size: 16px; 
     letter-spacing: 2px; 
     font-weight: 150;
@@ -424,7 +420,7 @@ blockquote {
 }
 
 .poppins-boxes {
-    font-family: 'PerfectlyNineties-Regular';
+    font-family: "DMSans-Regular", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
@@ -432,8 +428,6 @@ blockquote {
     color: #56735A;
     font-stretch: expanded;
     padding-top: 12px;
-    letter-spacing: 0.05em;
-
 }
 
 .button-box {
@@ -538,9 +532,9 @@ blockquote {
 .about-me-txt{
     color: whitesmoke;
     line-height: 1.4;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.02em;
     font-size: 27px;
-    font-family: 'PerfectlyNineties-Regular';
+    font-family: "DMSans-Regular", sans-serif;
     font-weight: 300;
     font-style: normal;
 
