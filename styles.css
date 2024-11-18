@@ -400,18 +400,40 @@ blockquote {
     letter-spacing: 0.03em;
     font-size: 17px;
     text-align: center;
-    font-family: "DMSans-Light";
+    font-family: 'Conso';
     font-weight: 420px;
     font-style: normal;
     padding: 1px 10px;
 }
+
+            
+.link-svgline svg.link-svgline {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 20px; 
+    transition: stroke-dashoffset 0.3s ease-in-out;
+    transform: translateY(-90%);
+    fill: none;
+    stroke: #b1d474;
+    stroke-width: 5;
+    stroke-dasharray: 400px; 
+    stroke-dashoffset: 400px;
+  }
+  
+  .link-svgline a:hover svg.link-svgline {
+    stroke-dashoffset: 0px; 
+  }
 
 .about-me-head{
     color: #4b6a6a;
     text-transform: none;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 200px;
@@ -448,7 +470,7 @@ blockquote {
     color: #4b6a6a;
     font-size: 58px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Conso';
     font-weight: 400;
     font-style: normal;
 }
@@ -456,9 +478,9 @@ blockquote {
 .values-headings{
     color: #4b6a6a;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Conso';
 }
 
 .values-desc{
@@ -466,7 +488,7 @@ blockquote {
     line-height: 1.8;
     font-size: 17px;
     text-align: left;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Conso';
     font-weight: 400;
     font-style: normal;
     padding-bottom: 5px;
@@ -545,7 +567,7 @@ blockquote {
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-family: "DMSans-Regular", sans-serif;
+    font-family: "Conso", sans-serif;
     font-weight: 500;
     font-style: normal;
     border: none;
