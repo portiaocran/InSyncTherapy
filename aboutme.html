@@ -126,6 +126,7 @@
       <script>
         if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
 
+          console.log("hello");
           document.getElementById("pris-photo").outerHTML = '';
           document.getElementById("credentials").outerHTML = '<p  class="about-me text-center pt-4 pb-0 mb-0">Priscilla Ocran</p>'+
             '<p class="about-pronouns my-0 py-0"> she/her/hers</p>'+
@@ -150,7 +151,7 @@
         }
       </script>
 
-<div class="container-fluid p-5 d-flex justify-content-center" id="cred" style="background-color: #D6C6B2; height: 850px;" >
+<!-- <div class="container-fluid p-5 d-flex justify-content-center" id="cred" style="background-color: #D6C6B2; height: 850px;" >
   <div class="p-md-5 p-sm-1 m-md-5 m-sm-1" id="pris_cred">
   <div class="z-3 position-absolute rounded-3 mt-5" style="left: 4%; background-color: #a8ab92; width: 300px; height: 200px; opacity: 0.8; ">
       <p class="about-us p-3" style="font-size: 12px; color: black;">I work from a person-centered trauma-informed lens, tailoring the care I provide to meet the unique needs of every individual, couple 
@@ -181,40 +182,47 @@
         </div>
          
 </div>
-        </div>
+        </div> -->
 
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="card mb-3">
+                <img src="images/pris_research.png" id="pris-re" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="card mb-3">
+                  <img src="images/pris_un.png" class="card-img-top" id="pris-un" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
 
+          </div>
+
+          
         <script>
-          if (navigator.userAgent.match(/iPhone/i)   || navigator.userAgent.match(/iPad/i)  || navigator.userAgent.match(/Android/i)) { 
-  
-            document.getElementById("cred").style.removeProperty("height");
+          const cardPicUn = document.getElementById("pris-un");
+          const cardPicRe = document.getElementById("pris-re");
 
-            document.getElementById("pris_cred").inerrHTML = "";
+          console.log(cardPicUn.offsetHeight);
 
-            document.getElementById("pris_cred").innerHTML = 
-            
-            '<div class="containter-fluid">'+
-            '<img src="images/pris_research.png" class="rounded w-100 ">'+
-            '<p class="about-us p-2" style="font-size: 9px;">'+
-              'Co-author of a research paper and apart of a research team of professors and graduate students'+ 
-              'from the University of Toronto focused on addressing anti-Black racism in the child welfare system</p>'+
-            '<p class="about-us">I work from a person-centered trauma-informed lens, tailoring the care I provide to meet the unique needs of every'+ 
-              'individual, couple and family that comes into this space. I use a combination of approaches that that integrate'+
-              'working with the body the mind and relationships to help facilitate regulation and healing.</p>'+
-              '<img src="images/pris_un.png" class="rounded w-100 py-3 ">'+
-            '<p class="about-us p-2" style="font-size: 9px;">'+
-              'Co-author of a research paper and apart of a research team of professors and graduate students'+ 
-              'from the University of Toronto focused on addressing anti-Black racism in the child welfare system</p>'+
-            '<p class="about-us"> I strive to create an environment where you can come as you are with no judgement and '+ 
-              'full acceptance. You are more than enough and your experiences, the hard ones, the '+
-              'sad ones, the happy ones and the messy ones all deserve a space to be heard and validated because your authentic self matters.</p>'+
-            '</div>';
-            
-            
-            
-          }
+          console.log("hello");
+          cardPicRe.style.height = cardPicUn.offsetHeight.toString() + "px";
+          
         </script>
 
+
+        </div>
 
 <!--       
       <div class="container-fluid text-center py-sm-4 py-md-1" style="background-color: #d6c6b2;">
