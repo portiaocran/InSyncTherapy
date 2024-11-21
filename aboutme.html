@@ -183,19 +183,19 @@
          
 </div>
         </div> -->
-        <script>
-          const cardPicUn = document.getElementById("pris-un");
-          const cardPicRe = document.getElementById("pris-re");
-
-          console.log(cardPicUn.offsetHeight);
-
-          console.log("hello");
-          cardPicRe.style.height = cardPicUn.offsetHeight.toString() + "px";
-          
-        </script>
-
+    
         <div class="container p-5">
           <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="card mb-3">
+                <img src="images/pris_un.png" class="card-img-top" id="pris-un" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
             <div class="col-md-6 col-sm-12">
               <div class="card mb-3">
                 <img src="images/pris_research.png" id="pris-re" class="card-img-top" alt="...">
@@ -206,17 +206,6 @@
                 </div>
               </div>
               </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="card mb-3">
-                  <img src="images/pris_un.png" class="card-img-top" id="pris-un" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-            </div>
-
           </div>
 
         </div>
@@ -372,6 +361,17 @@
             </div>
         </div>
     </div> -->
+    <script>
+      const cardPicUn = document.getElementById("pris-un");
+      const cardPicRe = document.getElementById("pris-re");
+      
+      console.log(cardPicUn.offsetHeight);
+
+      console.log("hello");
+      cardPicRe.style.height = cardPicUn.offsetHeight.toString() + "px";
+      
+    </script>
+
 </body>
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted divBG">
