@@ -198,7 +198,7 @@ strong {
   }
 
   .hero-image-about-me-flowers {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("images/about-me-flowers.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/about-me-flowers.jpeg");
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
