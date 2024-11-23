@@ -198,8 +198,8 @@ strong {
   }
 
   .hero-image-about-me-flowers {
-    background-image: url("images/about-me-flowers.jpeg");
-    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("images/about-me-flowers.jpeg");
+    height: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -669,6 +669,6 @@ playwrite-de-grund-welcome {
 }
 
 .about-me-photo{
-    width: 320px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
 }
