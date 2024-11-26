@@ -409,7 +409,7 @@ blockquote {
     letter-spacing: 0.03em;
     font-size: 20px;
     text-align: center;
-    font-family: 'Conso';
+    font-family: 'Poppins';
     font-weight: 420px;
     font-style: normal;
     padding: 1px 10px;
@@ -479,7 +479,7 @@ blockquote {
     color: #4b6a6a;
     font-size: 58px;
     text-align: center;
-    font-family: 'Conso';
+    font-family: 'Poppins';
     font-weight: 400;
     font-style: normal;
 }
@@ -489,7 +489,7 @@ blockquote {
     text-transform: uppercase;
     font-size: 24px;
     text-align: left;
-    font-family: 'Conso';
+    font-family: 'Poppins';
 }
 
 .values-desc{
@@ -497,7 +497,7 @@ blockquote {
     line-height: 1.8;
     font-size: 20px;
     text-align: left;
-    font-family: 'Conso';
+    font-family: 'Poppins';
     font-weight: 400;
     font-style: normal;
     padding-bottom: 5px;
@@ -519,7 +519,7 @@ blockquote {
     text-transform: none;
     font-size: 50px;
     text-align: center;
-    font-family: "Conso", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -576,7 +576,7 @@ blockquote {
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-family: "Conso", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     border: none;
