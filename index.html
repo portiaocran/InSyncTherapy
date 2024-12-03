@@ -237,25 +237,17 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form action="feedback-form.php" method="post">
-                  <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label">Recipient:</label>
-                    <input type="text" class="form-control" id="recipient-name" name="email" value="insynctherapywellness@gmail.com" readonly>
-                  </div>
-                  <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label">Name:</label>
-                    <input type="text" class="form-control" id="recipient-pronouns" name="name">
-                  </div>
-                  <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label">Subject:</label>
-                    <input type="text" class="form-control" id="recipient-subject" name="subject">
-                  </div>
-                  <div class="mb-3">
-                    <label for="message-text" class="col-form-label">Message:</label>
-                    <textarea class="form-control" id="message-text" name="message"></textarea>
-                  </div>
-                  <input type="submit" value="Submit" name="submit">
-
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqwobbn" method="post">
+                  <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                  </fieldset>
+                  <input type="submit" value="Submit">
                 </form>
               </div>
               <div class="modal-footer">
