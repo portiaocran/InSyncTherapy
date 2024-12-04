@@ -88,12 +88,12 @@
         <div class="row align-items-center py-3 mb-2">
           <p>
           
-            <button type="button" class="btn btn-outline-secondary btn-lg  px-5 m-3" id="custom-btn">Schedule a Consult
+            <button type="button" class="btn btn-outline-secondary btn-lg  px-5 m-3" id="custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Schedule a Consult
             </button>
 
           </p>
           <p>
-            <button type="button" class="btn btn-outline-light btn-lg px-5 " id="custom-btn-2">Learn More
+            <button type="button" class="btn btn-outline-light btn-lg px-5 " id="custom-btn-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Learn More
             </button>
           </p>
           
@@ -161,7 +161,7 @@
           <div class=" services-grid">
             <img width="50" height="50" src="images/icons8-medical-assistance-50.png" alt="consultation"/>
             <p class="poppins-boxes">Complimentary Consultation</p>
-            <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes">Book Now
+            <button type="button" class="btn btn-outline-light btn-lg px-4" id="custom-btn-boxes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Now
             </button> 
           </div>
         </div>
@@ -171,7 +171,7 @@
             <img width="50" height="50" src="images/icons8-person-female-50.png" alt="consultation"/>
             <p class="poppins-boxes">Individual Session</p>
             <p></p>
-            <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes">Learn More
+            <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Learn More
             </button>
           </div>
           
@@ -186,7 +186,7 @@
             <div class="services-grid">
               <img width="50" height="50" src="images/icons8-couple-50.png" alt="consultation"/>
               <p class="poppins-boxes">Couples Therapy</p>
-              <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes">Book Now
+              <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Now
               </button>  
             </div>
           </div>
@@ -195,7 +195,7 @@
             <div class="services-grid">
               <img width="50" height="50" src="images/icons8-family-50.png" alt="consultation"/>
               <p class="poppins-boxes">Family Therapy</p>
-              <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes">Book Now
+              <button type="button" class="btn btn-outline-light btn-lg px-4 " id="custom-btn-boxes" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Now
               </button>  
             </div>
           </div>
@@ -209,7 +209,7 @@
 
     </div>
 
-    <div class="container-fluid text-center p-md-5 p-sm-4" style="background-color: #d6c6b2;">
+    <div class="container-fluid text-center p-md-5 p-sm-4 pb-sm-5" style="background-color: #d6c6b2;">
       <div id="contact">
         <p class="insync-heading p-3" style="color: white;">Contact Us</p>
         </div>
@@ -224,8 +224,9 @@
           </p>
 
           <p class="about-me-txt p-2" style="line-height: 2; font-weight: 650; color: #6b6e47;">Offering secure virtual appointments in Ontario and Alberta.</p>
-          <button type="button" class="btn btn-outline-light btn-lg px-5 m-md-2 m-sm-4" id="custom-btn-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Let's Connect
-            
+          <div class="pb-4 ">
+          <button type="button" class="btn btn-outline-light btn-lg px-5 m-md-2 m-sm-5" id="custom-btn-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Let's Connect
+          </div>
           </button>
         </div>
 
@@ -233,7 +234,7 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <h1 class="modal-title fs-5" id="open-form">Let's Connect</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -241,9 +242,13 @@
                   <fieldset id="fs-frm-inputs">
                     <label for="full-name">Full Name</label>
                     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                         <label for="pronouns">Pronouns</label>
+                    <input type="text" name="pronouns" id="pronouns" placeholder="Preferred Pronouns" required="">
+                      
+                      
                     <label for="email-address">Email Address</label>
                     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                    <label for="message">Message</label>
+                    <label for="message">Message</label> 
                     <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                   </fieldset>
@@ -257,6 +262,8 @@
             </div>
           </div>
         </div>
+
+        
     </body>
   
     
