@@ -26,43 +26,43 @@
       </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-white p-1" style="padding-bottom: 0%;">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/pris_logo.png" alt="Bootstrap"  height="110">
-          </a>
-              <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="navMenuLinkContent" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="navMenuLinkContent dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false"" aria-current="page" href="aboutus.html">About Us</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-                      <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="navMenuLinkContent" href="therapy.html">Therapy</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="navMenuLinkContent" aria-current="page" href="testimonials.html">Testimonials</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="navMenuLinkContent" aria-current="page" href="#contact">Contact</a>
-                  </li>
-                  
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white p-1" style="padding-bottom: 0%;">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="index">
+        <img src="images/pris_logo.png" alt="Bootstrap"  height="110">
+      </a>
+          <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="navMenuLinkContent" aria-current="page" href="index">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="navMenuLinkContent dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false"" aria-current="page" href="aboutus.html">About Us</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aboutus">About Us</a></li>
+                  <li><a class="dropdown-item" href="aboutme">About Me</a></li>
                 </ul>
-               
-              </div>
-            </div>
-          </nav>
-    </header>
+              </li>
+              <li class="nav-item">
+                <a class="navMenuLinkContent" href="therapy">Therapy</a>
+              </li>
+              <li class="nav-item">
+                <a class="navMenuLinkContent" aria-current="page" href="testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="navMenuLinkContent" aria-current="page" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+</header>
     
     <div class="container-fluid text-center text-center p-md-5 p-sm-4 hero-image-therapy" >
     
@@ -72,7 +72,7 @@
                 <p class="about-us p-4" style="color: #555931;">Schedule a free 15 minute consultation to see if<br> InSync Therapy and Wellness is the right fit for you!</p>
                 <p>
                     <p>
-                        <button type="button" class="btn btn-outline-light btn-lg px-5 m-2" id="custom-btn-2">Schedule a Consult
+                        <button type="button" class="btn btn-outline-light btn-lg px-5 m-2" id="custom-btn-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Schedule a Consult
                         </button>
                                 </p>
                 </p>
@@ -150,7 +150,7 @@
                             </div>
                     </div>
                     <div class="col-12 align-items-center text-center my-sm-4 my-md-4 p-sm-4 p-md-1">
-                        <button type="button" class="btn  btn-lg btn-outline-light px-4 m-2" id="custom-btn" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
+                        <button type="button" class="btn  btn-lg btn-outline-light px-4 m-2" id="custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
                         </button>
             
                     </div>
@@ -250,7 +250,7 @@
                 </div>
                 <div class="row align-items-center p-3">
                     <div class="col-12 align-items-center text-center my-sm-4 my-md-2">
-                        <button type="button" class="btn  btn-lg btn-outline-light p-3 px-4 m-2" id="custom-btn" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
+                        <button type="button" class="btn  btn-lg btn-outline-light p-3 px-4 m-2" id="custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
                         </button>
             
                     </div>
@@ -331,7 +331,7 @@
                         
             </div>
             <div class="col-12 align-items-center text-center my-sm-4 my-md-2">
-                <button type="button" class="btn  btn-lg btn-outline-light px-4 m-2" id="custom-btn" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
+                <button type="button" class="btn  btn-lg btn-outline-light px-4 m-2" id="custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" style="background-color: #a8ab92; border-color: #66694e;">Schedule a Consult
                 </button>
     
             </div>
@@ -346,6 +346,38 @@
     </div>
 
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="open-form">Let's Connect</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqwobbn" method="post">
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                     <label for="pronouns">Pronouns</label>
+                <input type="text" name="pronouns" id="pronouns" placeholder="Preferred Pronouns" required="">
+                  
+                  
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <label for="message">Message</label> 
+                <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </fieldset>
+              <input type="submit" value="Submit">
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     </body>

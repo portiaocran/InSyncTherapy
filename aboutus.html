@@ -23,11 +23,17 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/659d2e3dc6.js" crossorigin="anonymous"></script>
+    <script>
+      function contactPage() {
+  location.href = "index.html#contact";
+}
+    </script>
+    
   </head>
   <header>
     <nav class="navbar navbar-expand-lg bg-white p-1" style="padding-bottom: 0%;">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index">
         <img src="images/pris_logo.png" alt="Bootstrap"  height="110">
       </a>
           <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +42,23 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="navMenuLinkContent" aria-current="page" href="index.html">Home</a>
+                <a class="navMenuLinkContent" aria-current="page" href="index">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="navMenuLinkContent dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false"" aria-current="page" href="aboutus.html">About Us</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-                  <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
+                  <li><a class="dropdown-item" href="aboutus">About Us</a></li>
+                  <li><a class="dropdown-item" href="aboutme">About Me</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="navMenuLinkContent" href="therapy.html">Therapy</a>
+                <a class="navMenuLinkContent" href="therapy">Therapy</a>
               </li>
               <li class="nav-item">
-                <a class="navMenuLinkContent" aria-current="page" href="testimonials.html">Testimonials</a>
+                <a class="navMenuLinkContent" aria-current="page" href="testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="navMenuLinkContent" aria-current="page" href="#contact">Contact</a>
+                <a class="navMenuLinkContent" aria-current="page" href="javascript:contactPage();">Contact</a>
               </li>
               
             </ul>
