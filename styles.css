@@ -324,7 +324,6 @@ strong {
 
   .hero-image-therapy {
     background-image:url("images/therapy_img.jpg");
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
