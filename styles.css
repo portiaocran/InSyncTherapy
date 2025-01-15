@@ -158,6 +158,13 @@
 
   }
 
+  .full-img {
+    background-image: url("images/welcome-index.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #custom-btn{
     border-color: #F2EEEB;  
     border-width: 2px; 
