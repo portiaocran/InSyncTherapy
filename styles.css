@@ -144,13 +144,19 @@
 
   .insync-welcome {
     font-family: "Poppins", sans-serif;
-    font-size: 38px !important;
+    font-size: 40px !important;
     font-style: normal;
     padding-top: 20px;
     margin-bottom: 0px;
     color: white;
     line-height: 1.8;
     letter-spacing: 0.03em;
+  }
+
+  #insync-bottom-radius {
+    padding: 10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
   }
 
   hr.welcome {
