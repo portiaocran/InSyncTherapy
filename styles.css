@@ -315,6 +315,16 @@ strong {
     position: relative;
   }
 
+  .aboutus-hero-image {
+    background-image: url("images/about-us-hero.jpeg");
+    height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
   .contact-hero-image {
     background-image: url("images/welcome-index.jpeg");
     background-position: center;
