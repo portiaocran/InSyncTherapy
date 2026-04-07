@@ -397,6 +397,9 @@
                   
                 <label for="email-address">Email Address</label>
                 <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number" placeholder="123-454-6784" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    
                 <label for="message">Message</label> 
                 <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
                 <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">

@@ -14,9 +14,15 @@
     src: url('font/static/DMSans-Light.ttf'); /* Locate the .ttf file within your directory*/
   }
 
+   @font-face {
+    font-family: 'Playfair'; /* Name your font family */
+    src: url('font/static/PlayfairDisplay-Regular.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+
   @font-face {
     font-family: 'Conso'; /* Name your font family */
-    src: url('font/Conso-Regular.otf'); /* Locate the .ttf file within your directory*/
+    src: url('font/static/Cardo-Regular.ttf'); /* Locate the .ttf file within your directory*/
   }
 
   @font-face {
@@ -131,7 +137,7 @@
   margin-right: 3%;
 }
   .insync-heading {
-    font-family: "Poppins", sans-serif;
+    font-family: "Playfair", sans-serif;
     font-size: 38px !important;
     font-weight:400;
     font-style: normal;
@@ -143,9 +149,10 @@
   }
 
   .insync-welcome {
-    font-family: "Poppins", sans-serif;
-    font-size: 45px !important;
+    font-family: "Conso", sans-serif;
+    font-size: 50px !important;
     font-style: normal;
+    font-weight:550;
     padding-top: 20px;
     margin-bottom: 0px;
     color: white;
@@ -171,7 +178,7 @@
   }
 
   hr.welcome {
-    border: 1px solid white;
+    border: 1.5px solid white;
 
   }
 
@@ -180,6 +187,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #custom-btn{
@@ -239,8 +252,6 @@ strong {
   
       background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg");
       background-repeat: no-repeat;
-  
-
       background-size: cover;
     }
   }
@@ -325,7 +336,7 @@ strong {
 
 
   .contact-hero-image {
-    background-image: url("images/welcome-index.jpeg");
+    background-image: url("images/welcome-index.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -566,10 +577,12 @@ blockquote {
     margin: 6px;
     border-radius: 3px;
     background-color: #a8ab92;
+    font-family: "Conso", sans-serif;
+
 }
 
 .poppins-services {
-    font-family: "Poppins", sans-serif;
+    font-family: "Conso", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 65px;
@@ -593,7 +606,7 @@ blockquote {
     letter-spacing: 0.03em;
     font-size: 18px;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Playfair';
     font-weight: 420px;
     font-style: normal;
     padding: 1px 10px;
@@ -673,16 +686,17 @@ blockquote {
     text-transform: uppercase;
     font-size: 22px;
     text-align: left;
-    font-family: 'Poppins';
+    font-weight: 580;
+    font-family: 'Playfair';
 }
 
 .values-desc{
-    color:  #6e724d;
+    color:  #999d79;
     line-height: 1.8;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    font-family: 'Poppins';
-    font-weight:300;
+    font-family: 'Playfair';
+    font-weight:lighter;
     font-style: normal;
     padding-bottom: 5px;
 }
@@ -703,7 +717,7 @@ blockquote {
     text-transform: none;
     font-size: 50px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Playfair", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -748,19 +762,28 @@ blockquote {
     color: whitesmoke;
     line-height: 1.4;
     letter-spacing: 0.02em;
-    font-size: 22px;
-    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-family: "Playfair", sans-serif;
     font-weight: 300;
     font-style: normal;
 
 }
 
+.about-me-txt2{
+    color: whitesmoke;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    font-size: 25px;
+    font-family: "Playfair", sans-serif;
+    font-style: normal;
+
+}
 .expertise-bullets{
     color: #674614    ;
     text-transform: none;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Playfair", sans-serif;
     font-weight: 500;
     font-style: normal;
     border: none;
@@ -773,7 +796,7 @@ blockquote {
     letter-spacing: 0.1em;
     font-size: 20px;
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Playfair";
     font-weight: 600;
     font-style: normal;
 }
